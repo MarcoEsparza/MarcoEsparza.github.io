@@ -118,3 +118,40 @@ body {
 .btn-secondary:hover {
     background: rgba(255,255,255,0.15);
 }
+
+.about
+{
+    background-color: #141414;
+
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.about-container
+{
+    max-width: 1000px;
+
+    margin: 0 auto;
+}
+
+.about h2
+{
+    font-size: 3rem;
+
+    margin-bottom: 40px;
+
+    text-align: center;
+}
+
+.about p
+{
+    font-size: 1.2rem;
+
+    line-height: 1.8;
+
+    margin-bottom: 25px;
+
+    color: #d0d0d0;
+}
