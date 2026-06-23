@@ -121,7 +121,7 @@ body {
 
 .about
 {
-    background-color: #121212;
+    background-color: #0b0f18;
 
     padding-top: 120px;
     padding-bottom: 120px;
@@ -271,7 +271,7 @@ body {
 
 .skills-right
 {
-    clip-path: ellipse(90% 120% at 100% 50%);
+    clip-path: ellipse(80% 120% at 100% 50%);
 }
 
 @media (max-width: 1000px)
