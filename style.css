@@ -347,6 +347,74 @@ body {
     margin-bottom: 10px;
 }
 
+.maya-project
+{
+    background: #0b0f18;
+
+    color: white;
+
+    padding: 120px 80px;
+}
+
+.maya-content
+{
+    display: flex;
+
+    align-items: center;
+
+    gap: 60px;
+}
+
+.maya-text
+{
+    flex: 1;
+}
+
+.maya-text h2
+{
+    font-size: 3rem;
+
+    margin: 20px 0;
+}
+
+.maya-stat
+{
+    margin-top: 40px;
+
+    padding: 25px;
+
+    border-left: 4px solid #8d7bff;
+}
+
+.maya-stat h3
+{
+    font-size: 2rem;
+}
+
+.maya-image
+{
+    flex: 1;
+}
+
+.maya-image img
+{
+    width: 100%;
+
+    border-radius: 20px;
+}
+
+.maya-video
+{
+    margin-top: 60px;
+}
+
+.maya-video video
+{
+    width: 100%;
+
+    border-radius: 20px;
+}
+
 @media (max-width: 1000px)
 {
     .skills
