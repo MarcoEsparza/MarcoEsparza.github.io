@@ -255,13 +255,10 @@ body {
 .skills-right
 {
     width: 45%;
-    min-height: 500px;
 
     position: relative;
 
     overflow: hidden;
-
-    background: green;
 }
 
 .skills-right img
