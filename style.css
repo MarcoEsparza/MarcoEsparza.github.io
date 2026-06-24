@@ -303,21 +303,6 @@ body {
     line-height: 1.8;
 }
 
-/* .project-showcase
-{
-    margin-top: 60px;
-    margin-bottom: 80px;
-}
-
-.project-showcase img
-{
-    width: 100%;
-
-    border-radius: 25px;
-
-    display: block;
-} */
-
 .project-video
 {
     margin-top: 60px;
@@ -336,6 +321,17 @@ body {
 
     box-shadow:
         0px 15px 40px rgba(0,0,0,0.4);
+}
+
+.video-caption
+{
+    margin-top: 20px;
+
+    color: #b0b0b0;
+
+    text-align: center;
+
+    line-height: 1.8;
 }
 
 .feature-grid
