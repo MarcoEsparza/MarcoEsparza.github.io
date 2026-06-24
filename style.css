@@ -303,7 +303,7 @@ body {
     line-height: 1.8;
 }
 
-.project-showcase
+/* .project-showcase
 {
     margin-top: 60px;
     margin-bottom: 80px;
@@ -316,6 +316,26 @@ body {
     border-radius: 25px;
 
     display: block;
+} */
+
+.project-video
+{
+    margin-top: 60px;
+    margin-bottom: 80px;
+
+    width: 100%;
+}
+
+.project-video video
+{
+    width: 100%;
+
+    display: block;
+
+    border-radius: 25px;
+
+    box-shadow:
+        0px 15px 40px rgba(0,0,0,0.4);
 }
 
 .feature-grid
