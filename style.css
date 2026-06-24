@@ -121,7 +121,7 @@ body {
 
 .about
 {
-    background-color: #0b0f18;
+    background-color: #080808;
 
     padding-top: 120px;
     padding-bottom: 120px;
@@ -255,10 +255,13 @@ body {
 .skills-right
 {
     width: 45%;
+    min-height: 500px;
 
     position: relative;
 
     overflow: hidden;
+
+    background: green;
 }
 
 .skills-right img
