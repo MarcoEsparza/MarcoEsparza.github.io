@@ -252,7 +252,7 @@ body {
     color: #8d7bff;
 }
 
-/*.skills-right
+.skills-right
 {
     width: 45%;
     min-height: 500px;
@@ -270,9 +270,11 @@ body {
     height: 100%;
 
     object-fit: cover;
-}*/
 
-.skills-right
+    clip-path: ellipse(80% 120% at 100% 50%);
+}
+
+/* .skills-right
 {
     width: 45%;
     position: relative;
@@ -284,7 +286,7 @@ body {
     width: 100%;
     height: auto;
     display: block;
-}
+} */
 
 /*.skills-right
 {
