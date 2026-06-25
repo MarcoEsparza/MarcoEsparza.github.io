@@ -488,6 +488,61 @@ body {
     border-radius: 20px;
 }
 
+.contact
+{
+    background: #0a0a0a;
+
+    color: white;
+
+    padding: 150px 20px;
+
+    text-align: center;
+}
+
+.contact-container
+{
+    max-width: 800px;
+
+    margin: auto;
+}
+
+.contact h2
+{
+    font-size: 4rem;
+
+    margin-bottom: 30px;
+}
+
+.contact p
+{
+    color: #b0b0b0;
+
+    font-size: 1.2rem;
+
+    line-height: 1.8;
+
+    margin-bottom: 20px;
+}
+
+.contact-button
+{
+    display: inline-block;
+
+    margin-top: 30px;
+
+    padding: 18px 40px;
+
+    border-radius: 10px;
+
+    background: #8d7bff;
+
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: 600;
+}
+
 @media (max-width: 1000px)
 {
     .skills
