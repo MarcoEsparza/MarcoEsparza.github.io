@@ -483,7 +483,15 @@ body {
 
 .maya-video
 {
-    margin-top: 60px;
+    width: 70%;
+
+    margin: 60px auto 80px auto;
+
+    padding: 20px;
+
+    background: #1a1a1a;
+
+    border-radius: 30px;
 }
 
 .maya-video video
