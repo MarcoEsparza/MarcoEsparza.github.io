@@ -327,6 +327,8 @@ body {
 {
     margin-top: 20px;
 
+    margin-bottom: 100px;
+
     color: #b0b0b0;
 
     text-align: center;
@@ -361,6 +363,61 @@ body {
 .feature-card li
 {
     margin-bottom: 10px;
+}
+
+.technical-highlights
+{
+    margin-top: 100px;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, minmax(300px, 1fr));
+
+    gap: 40px;
+}
+
+.highlight-card
+{
+    background: #1a1a1a;
+
+    border-radius: 20px;
+
+    padding: 30px;
+
+    transition: 0.25s ease;
+}
+
+.highlight-card:hover
+{
+    transform: translateY(-5px);
+}
+
+.highlight-card h3
+{
+    font-size: 1.8rem;
+
+    margin-bottom: 20px;
+
+    color: #ffffff;
+}
+
+.highlight-card p
+{
+    color: #b0b0b0;
+
+    line-height: 1.8;
+
+    margin-bottom: 25px;
+}
+
+.highlight-card img
+{
+    width: 100%;
+
+    border-radius: 15px;
+
+    display: block;
 }
 
 .maya-project
