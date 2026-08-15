@@ -113,6 +113,13 @@ body {
     font-size: 1.2rem;
 }
 
+.menu-button.hidden
+{
+    opacity: 0;
+
+    pointer-events: none;
+}
+
 .menu-close
 {
     background: none;
