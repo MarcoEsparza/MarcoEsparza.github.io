@@ -16,7 +16,59 @@
 
 <body>
 
-<section class="hero">
+<button class="menu-button"
+        id="menuButton"
+        aria-label="Open navigation menu">
+
+    <span></span>
+    <span></span>
+    <span></span>
+
+</button>
+
+
+<nav class="side-menu" id="sideMenu">
+
+    <div class="side-menu-header">
+
+        <span>
+            Navigation
+        </span>
+
+        <button class="menu-close"
+                id="menuClose"
+                aria-label="Close navigation menu">
+
+            &times;
+
+        </button>
+
+    </div>
+
+
+    <div class="side-menu-links">
+
+        <a href="#home">Home</a>
+
+        <a href="#about">About</a>
+
+        <a href="#skills">Skills</a>
+
+        <a href="#engine">Engine</a>
+
+        <a href="#maya">Maya Exporter</a>
+
+        <a href="#rts">RTS Pathfinding</a>
+
+        <a href="#gameplay">Gameplay</a>
+
+        <a href="#contact">Contact</a>
+
+    </div>
+
+</nav>
+
+<section id="home" class="hero">
 
     <div class="hero-overlay"></div>
 
@@ -58,7 +110,7 @@
 
 </section>
 
-<section class="about">
+<section id="about" class="about">
 
     <div class="about-container">
 
@@ -93,7 +145,7 @@
 
 </section>
 
-<section class="skills">
+<section id="skills" class="skills">
 
     <div class="skills-left">
 
@@ -186,7 +238,7 @@
 
 </section>
 
-<section class="featured-project">
+<section id="engine" class="featured-project">
 
     <div class="project-header">
 
@@ -317,7 +369,7 @@
 
 </section>
 
-<section class="maya-project">
+<section id="maya" class="maya-project">
 
     <div class="maya-content">
 
@@ -379,7 +431,7 @@
 
 </section>
 
-<section class="rts-project">
+<section id="rts" class="rts-project">
 
     <div class="rts-content">
 
@@ -438,7 +490,7 @@
 
 </section>
 
-<section class="gameplay-prototypes">
+<section id="gameplay" class="gameplay-prototypes">
 
     <div class="gameplay-header">
 
@@ -561,7 +613,7 @@
 
 </section>
 
-<section class="contact">
+<section id="contact" class="contact">
 
     <div class="contact-container">
 
@@ -599,6 +651,8 @@
 
     </div>
 </section>
+
+<script src="script.js"></script>
 
 </body>
 </html>
